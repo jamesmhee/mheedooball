@@ -1,0 +1,103 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    background-color:#f7f7f7;
+}
+.box{
+    width: 100%;
+    height: 800px;
+    color:black;
+    background-color: #fcfcfc;
+}
+.box2{
+    max-width: 100%;
+    color:black;
+    background-color: #fcfcfc;
+    padding: 20px 20px;
+    font-size: 26px;
+}
+.menu{
+    max-width: 100%;
+    height: 130px;
+    color:white;
+    font-size: 36px;
+    text-align: center;
+}
+.stylelink {
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ff6200;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .stylelink:hover {
+    background-color: #ff6200;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #iframescore1{
+    margin:0px; 
+    border: 1px solid #9999;
+    width: 100%;
+    height: 520px;
+  }
+  #iframescore2{
+    margin:0px; 
+    border: 1px solid #9999;
+    width: 100%;
+    height: 520px;
+  }
+
+
+  /* ส่วนของ Reponsive */
+  @media only screen and (max-width: 1000px) {
+      
+    #iframescore1{
+        margin:0px; 
+        border: 1px solid #9999;
+        width: 100%;
+        height: 520px;
+      }
+      #iframescore2{
+        margin:0px; 
+        border: 1px solid #9999;
+        width: 100%;
+        height: 520px;
+      }
+      .stylelink {
+        background-color: #2196F3;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border: 2px solid #ff6200;
+        width: 75%;
+        height: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      .stylelink:hover {
+        background-color: #ff6200;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+        
+        .navbar{
+            position: fixed;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+      }
+
