@@ -2,12 +2,18 @@ body{
     font-family: 'Kanit', sans-serif;
     text-align: center;
     background-color:#f7f7f7;
+    color:black;
+}
+.dark-mode {
+    background-color: #333333;
+    color: white;
 }
 .box{
     width: 100%;
     height: 800px;
     color:black;
-    background-color: #fcfcfc;
+    background-color: #9999;
+    font-family: 'Kanit', sans-serif;
 }
 .box2{
     max-width: 100%;
@@ -15,13 +21,7 @@ body{
     background-color: #fcfcfc;
     padding: 20px 20px;
     font-size: 26px;
-}
-.menu{
-    max-width: 100%;
-    height: 130px;
-    color:white;
-    font-size: 36px;
-    text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 .stylelink {
     margin-left: 10px;
@@ -43,22 +43,44 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  #iframescore1{
-    margin:0px; 
-    border: 1px solid #9999;
-    width: 100%;
-    height: 520px;
+
+  #myBtn {
+    right: 30px;
+    top: 850px;
+    position: fixed;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #757575;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
   }
-  #iframescore2{
-    margin:0px; 
-    border: 1px solid #9999;
-    width: 100%;
-    height: 520px;
+
+  #myBtn2 {
+    right: 30px;
+    top: 820px;
+    position: fixed;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #9999;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 50px;
   }
+
 
 
   /* ส่วนของ Reponsive */
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 800px) {
       
     #iframescore1{
         margin:0px; 
@@ -100,4 +122,37 @@ body{
             right: 0;
         }
       }
+      .imgrepon{
+        width: 40%;
+        height: 100px;
+      }
 
+      #myBtn {
+        right: 30px;
+        top: 120px;
+        position: fixed;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #c9c9c9;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 50px;
+      }
+
+      #myBtn2 {
+        right: 30px;
+        top: 30px;
+        position: fixed;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #c9c9c9;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 40px;
+      }
